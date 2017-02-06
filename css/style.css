@@ -1,0 +1,283 @@
+/* @override 
+	http://localhost:8888/BryanU/css/style.css
+	http://localhost:8888/bryanu/css/style.css
+	http://explore.bryanu.edu/css/style.css
+*/
+
+@charset "UTF-8";
+/* CSS Document */
+
+h1, h2, h3, h4{
+	font-family: "open-sans", Lucida, Verdana, sans-serif;
+	color: #122949;
+}
+h1{
+	font-weight: bold;
+}
+
+
+/* @group Form */
+.formHeader h2{
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.formHeader{
+	background-color: #122949;
+}
+
+.formBody{
+	background-color: #3575bf;
+	color: #ffffff;
+	padding-left: 20px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding: 20px;
+}
+.formBody .row{
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+.formBody .row .col-md-6:first-child{
+	padding-left: 0;
+	padding-right: 5px;
+}
+
+.formBody .row .col-md-6:last-child{
+	padding-right: 0;
+	padding-left: 5px;
+}
+
+
+.required{
+	color: #000000;
+}
+
+.disclaimer {font-size:10px; line-height:13px; padding: 10px 0px 0;
+	color: #112949;
+	margin-bottom: 0;
+}
+button#submit{
+	text-indent: -999px;
+	overflow: hidden;
+	border-style: none;
+	width: 180px;
+	height: 43px;
+	background: url(../img/submit.jpg) no-repeat;
+	margin-top: 10px;
+}
+.formBody .row{
+	margin-bottom: 15px;
+}
+.Form{
+	z-index: 100;
+	margin-bottom: 25px;
+}
+
+.error{
+	color: #f7b801;
+}
+
+
+/* @end Form */
+
+/* @group Header */
+
+nav.navbar{
+	box-shadow: 0 0px 5px rgba(0,0,0,0.2);
+	margin-bottom: 30px;
+}
+.header{
+	background-color: #fff;
+}
+.top-phone{
+	text-align: right;
+	background-color: #112849;
+	color: #eed577;
+	color:#f0d67f;
+	font:  20px "open-sans", Lucida, Verdana, sans-serif;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 0;
+	border-style: none;
+}
+.top-phone .call{
+	color: #e1ac00;
+}
+.top-phone p{
+	margin-bottom: 0;
+}
+.navbar{
+	border-style: none;
+}
+
+.header .container{
+	height: 110px;
+}
+ul.nav li a{
+	height: 110px;
+	display: block;
+	padding-top: 45px;
+	color: #000 !important;
+}
+
+
+
+@media (max-width: 992px){
+	.navbar-brand img{
+	max-width: 280px;
+	margin-top: 5px;
+}
+.navbar-toggle{
+	margin-top: 35px;
+}
+
+ul.navbar-nav{
+	z-index: 99999999;
+	position: relative;
+	display: block;
+	background-color: #feffff;
+	padding-top: 0 !important;
+	margin-top: 0;
+}
+ul.navbar-nav li a{
+	padding-top: 10px;
+	height: 40px;
+	margin-top: 0;
+	background-color: #f7f7f7;
+}
+
+ul.navbar-nav ul{
+	padding-top: 0;
+	margin-top: 0 !important;
+	background-color: #f7f7f7;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+ul.navbar-nav ul li a{
+	background-color: #fff;
+	padding-left: 30px !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	height: 40px;
+}
+
+#defaultNavbar1{
+	margin-top: 35px;
+	background-color: #feffff;
+}
+	}
+
+
+
+/* @end END Header*/
+
+/* @group Main Content */
+
+.main_content{
+	margin-bottom: 20px;
+}
+
+.alignCenter{
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* @end Main Content */
+
+/* @group Footer */
+
+.footer-content{
+	background-color: #efefef;
+	color: #112949;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+.footer-content li{
+	list-style-image: none;
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+.footer-content ul{
+	padding-left: 0 !important;
+	margin-left: 0 !important;
+
+}
+.footer-content h3{
+	font-size: 21px;
+}
+
+.footer-content h2{
+	color: #3575bf;
+	margin-top: 0;
+}
+
+.bottom-footer{
+	background-color: #e6e5e5;
+	color: #958f95;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.rAlign{
+	text-align: right;
+}
+
+.rAlign a{
+	margin-left: 15px;
+	color: #958f95;
+}
+
+.footer-content a{
+	color: #112949;
+}
+
+/* @end Footer */
+
+
+.testimonial-item{
+	    background: 0px;
+    border: 1px solid #dddddd;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.testimonial-item p{
+	    color: #757575;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.circle-crop{
+	width: 60px;
+	height: 60px;
+	display: block;
+	overflow: hidden;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.testimonial-item .col-md-9 h4{
+	margin-left: 10px;
+	color: #333333;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-bottom: -10px;
+}
+.testimonial-item .col-md-9 p{
+	margin-top: 0;
+	margin-left: 10px;
+	    color: #0478ff;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: bold;
+}
